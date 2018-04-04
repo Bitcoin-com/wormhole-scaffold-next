@@ -1,10 +1,10 @@
-## BITBOX Scaffold Node
+## BITBOX Scaffold NexJS
 
 ## Intro
 
 BITBOX scaffolds are basic apps w/ bindings to your local running BITBOX. They allow a developer to hit the ground running and waste no time w/ app set up and configuration.
 
-This scaffold is basic command line node app w/ BITBOX bindings It already has `BITBOX` instantiated and is ready to roll.
+This scaffold is basic [nextjs](https://zeit.co/blog/next5) app w/ BITBOX bindings It already has `BITBOX` instantiated and is ready to roll.
 
 This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).
 
