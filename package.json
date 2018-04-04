@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "bitbox-cli": "^0.5.7",
+    "bitbox-cli": "0.5.8",
     "next": "^5.1.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
