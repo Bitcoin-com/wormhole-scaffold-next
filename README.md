@@ -1,4 +1,4 @@
-## BITBOX Scaffold NexJS
+## BITBOX Scaffold NextJS
 
 ## Intro
 
