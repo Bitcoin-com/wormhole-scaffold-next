@@ -1,10 +1,15 @@
-This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).
+## BITBOX Scaffold Node
 
-Find the most recent version of this guide at [here](https://github.com/segmentio/create-next-app/blob/master/lib/templates/default/README.md). And check out [Next.js repo](https://github.com/zeit/next.js) for the most up-to-date info.
+## Intro
+
+BITBOX scaffolds are basic apps w/ bindings to your local running BITBOX. They allow a developer to hit the ground running and waste no time w/ app set up and configuration.
+
+This scaffold is basic command line node app w/ BITBOX bindings It already has `BITBOX` instantiated and is ready to roll.
+
+This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).
 
 ## Table of Contents
 
-- [Questions? Feedback?](#questions-feedback)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm run dev](#npm-run-dev)
@@ -17,11 +22,6 @@ Find the most recent version of this guide at [here](https://github.com/segmenti
 - [Syntax Highlighting](#syntax-highlighting)
 - [Using the `static` Folder](#using-the-static-folder)
 - [Deploy to Now](#deploy-to-now)
-- [Something Missing?](#something-missing)
-
-## Questions? Feedback?
-
-Check out [Next.js FAQ & docs](https://github.com/zeit/next.js#faq) or [let us know](https://github.com/segmentio/create-next-app/issues) your feedback.
 
 ## Folder Structure
 
@@ -228,7 +228,3 @@ To configure the syntax highlighting in your favorite text editor, head to the [
     Paste that URL into your browser when the build is complete, and you will see your deployed app.
 
 You can find more details about [`now` here](https://zeit.co/now).
-
-## Something Missing?
-
-If you have ideas for how we could improve this readme or the project in general, [let us know](https://github.com/segmentio/create-next-app/issues) or [contribute some!](https://github.com/segmentio/create-next-app/edit/master/lib/templates/default/README.md)
