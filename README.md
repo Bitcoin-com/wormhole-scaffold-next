@@ -6,7 +6,7 @@ BITBOX scaffolds are basic apps w/ bindings to your local running BITBOX. They a
 
 This scaffold is a basic [nextjs](https://zeit.co/blog/next5) app w/ `BITBOX` instantiated and ready to roll.
 
-This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).
+[More info about BITBOX](https://www.bitbox.earth/). This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).
 
 ## Table of Contents
 
