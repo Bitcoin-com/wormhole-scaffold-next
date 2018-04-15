@@ -60,7 +60,7 @@ class Index extends React.Component {
     let originalAmount = 3678031;
 
     // add input txid, vin 1 and keypair
-    transactionBuilder.addInput(txid, 1, originalAmount);
+    transactionBuilder.addInput(txid, 1);
 
     // calculate fee @ 1 sat/B
     let byteCount = BITBOX.BitcoinCash.getByteCount({ P2PKH: 1 }, { P2PKH: 1 });
@@ -71,7 +71,8 @@ class Index extends React.Component {
     transactionBuilder.addOutput('bitcoincash:qpuax2tarq33f86wccwlx8ge7tad2wgvqgjqlwshpw', sendAmount);
 
     // sign tx
-    transactionBuilder.sign(0, keyPair);
+    let redeemScript;
+    transactionBuilder.sign(0, keyPair, redeemScript, transactionBuilder.hashTypes.SIGHASH_ALL, originalAmount);
 
     // build it and raw hex
     let tx = transactionBuilder.build();
