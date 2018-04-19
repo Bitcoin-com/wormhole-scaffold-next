@@ -7,7 +7,8 @@ let BITBOX = new BITBOXCli({
   host: '127.0.0.1',
   port: 8332,
   username: '',
-  password: ''
+  password: '',
+  corsproxy: false
 });
 
 class Index extends React.Component {
