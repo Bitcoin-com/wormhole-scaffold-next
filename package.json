@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next"
+    "start": "next",
+    "test": "ls"
   },
   "dependencies": {
     "bitbox-cli": "0.7.6",
