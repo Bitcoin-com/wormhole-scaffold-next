@@ -7,7 +7,7 @@
     "test": "ls"
   },
   "dependencies": {
-    "bitbox-cli": "0.8.0",
+    "bitbox-cli": "0.8.1",
     "next": "^5.1.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
