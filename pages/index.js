@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Head from '../components/head';
 import Nav from '../components/nav';
-let BITBOXCli = require('bitbox-cli/lib/bitboxcli').default;
+let BITBOXCli = require('bitbox-cli/lib/bitbox-cli').default;
 let BITBOX = new BITBOXCli();
 
 class Index extends React.Component {
