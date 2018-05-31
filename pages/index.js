@@ -2,14 +2,7 @@ import Link from 'next/link';
 import Head from '../components/head';
 import Nav from '../components/nav';
 let BITBOXCli = require('bitbox-cli/lib/bitboxcli').default;
-let BITBOX = new BITBOXCli({
-  protocol: 'http',
-  host: '127.0.0.1',
-  port: 8332,
-  username: '',
-  password: '',
-  corsproxy: 'remote'
-});
+let BITBOX = new BITBOXCli();
 
 class Index extends React.Component {
   constructor(props) {
@@ -18,6 +11,7 @@ class Index extends React.Component {
       mnemonic: '',
       lang: '',
       hex: '',
+      txid: '',
       masterHDNode: ''
     }
   }
@@ -94,11 +88,17 @@ class Index extends React.Component {
       // build tx
       let tx = transactionBuilder.build();
       // output rawhex
-      let hex = tx.toHex();
+      hex = tx.toHex();
+
+      this.setState({
+        hex: hex
+      });
 
       // sendRawTransaction to running BCH node
       BITBOX.RawTransactions.sendRawTransaction(hex).then((result) => {
-        console.log(result);
+        this.setState({
+          txid: result
+        });
       }, (err) => {
         console.log(err);
       });
@@ -109,7 +109,6 @@ class Index extends React.Component {
     this.setState({
       mnemonic: mnemonic,
       lang: lang,
-      hex: hex,
       masterHDNode: masterHDNode
     });
   }
@@ -144,6 +143,8 @@ class Index extends React.Component {
           </ul>
           <h3>Transaction raw hex</h3>
           <p>{this.state.hex}</p>
+          <h3>Transaction ID</h3>
+          <p>{this.state.txid}</p>
         </div>
       </div>
     );
