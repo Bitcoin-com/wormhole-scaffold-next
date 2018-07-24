@@ -1,6 +1,6 @@
 {
   "name": "bitbox-scaffold-nextjs",
-  "version": "1.4.1",
+  "version": "1.4.3",
   "license": "MIT",
   "description": "Basic nextJS app w/ BITBOX bindings",
   "author": "Gabriel Cardona @ Bitcoin.com",
@@ -11,7 +11,7 @@
     "test": "ls"
   },
   "dependencies": {
-    "bitbox-cli": "1.4.1",
+    "bitbox-cli": "1.4.3",
     "next": "^5.1.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
