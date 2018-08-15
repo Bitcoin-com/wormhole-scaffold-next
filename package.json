@@ -1,8 +1,8 @@
 {
-  "name": "bitbox-scaffold-nextjs",
-  "version": "1.5.1",
+  "name": "wormhole-scaffold-nextjs",
+  "version": "0.2.0",
   "license": "MIT",
-  "description": "Basic nextJS app w/ BITBOX bindings",
+  "description": "Basic nextJS app w/ Wormhole SDK bindings",
   "author": "Gabriel Cardona @ Bitcoin.com",
   "scripts": {
     "dev": "next",
@@ -11,7 +11,7 @@
     "test": "ls"
   },
   "dependencies": {
-    "bitbox-cli": "1.5.1",
+    "wormholecash": "0.2.0",
     "next": "^5.1.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
