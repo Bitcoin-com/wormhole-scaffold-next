@@ -1,6 +1,6 @@
 {
   "name": "wormhole-scaffold-nextjs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "description": "Basic nextJS app w/ Wormhole SDK bindings",
   "author": "Gabriel Cardona @ Bitcoin.com",
@@ -11,7 +11,7 @@
     "test": "ls"
   },
   "dependencies": {
-    "wormholecash": "0.2.0",
+    "wormholecash": "0.2.1",
     "next": "^5.1.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
